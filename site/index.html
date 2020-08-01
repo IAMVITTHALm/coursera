@@ -1,262 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>COURSERA.COM</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="style.css">
-	<style>
-		p{
-			color: green;
-			font-size: 20px;
-			background-color: white;
-			margin: 40px;
-			width: 1450px;
-			opacity: 1;
-			cursor: pointer;
+	<title>box</title>
+	<style >
+		body{
+			background-color: #00FFFF;
 		}
 		h1{
-			color: blue;
-			font-size: 36px;
+			background-color:  #ff6666;
 			text-align: center;
 		}
-		h4, .rang{
+	#pehla > .bada{
+					background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Dgz6OJt5Y8qfH10aWNxhQwHaHa%26pid%3DApi&f=1");
+			background-repeat: no-repeat;
+			background-position: top left;
+			background-size: 100px 100px;
+	}
+	#doosra > .bada{
+							background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.KTdxn-TTwF9WSjubl_60TgHaFj%26pid%3DApi&f=1");
+			background-repeat: no-repeat;
+			background-position: top left;
+			background-size: 100px 100px;
+
+	}
+	#teesra> .bada{
+					background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Aj6bkdMpyJMmnSHvuM_6gwHaE8%26pid%3DApi&f=1");
+			background-repeat: no-repeat;
+			background-position: top left;
+			background-size: 100px 100px;
+	}
+	.bada{
+			border: 2px solid black;
+			padding-top: 100px;
+			padding-left: 25px;
+			padding-right: 25px;
+			width: 30%;
+			height: 300px;
+			background-color: grey;
+			box-sizing: border-box;
+			position: relative;
+			float: left;
+			margin-left: 2.7%;
+			overflow: auto;
+			
+			
+		}
+		#chota1{
+			border: 1px solid black;
+    		background-color: #33cc33;
+			padding: 10px;
+			width: 7.9%;
+			height: 25px;
+			position: absolute;
+			top: 10.5%;
+			left: 23.5%;
 			text-align: center;
 			font-size: 20px;
-			color: red;
+			
 		}
-		h2, #p1{
-			font-size: 25px;
-			color: grey;
-		}
-		a:link, a:visited{
-			border: 10px red;
-			color: black;
-			background-color: pink;
-			display: block;
-			width: 200px;
+		#chota2{border: 1px solid black;
+    		background-color:  #ff9900;
+			padding: 10px;
+			width: 7.9%;
+			height: 25px;
+			position: absolute;
+			top: 10.5%;
+			left: 55.9%;
 			text-align: center;
+			font-size: 20px;
 		}
-		a:hover, a:active{
-			background-color: blue;
-			color: red;
+		#chota3{border: 1px solid black;
+    		background-color:  #cc0000;
+			padding: 10px;
+			width: 7.9%;
+			height: 25px;
+			position: absolute;
+			top: 10.5%;
+			left: 88.2%;
+			text-align: center;
+			font-size: 20px;
+		}
+		@media (max-width: 767px ){
+				.bada{
+			border: 2px solid black;
+			padding-top: 100px;
+			padding-left: 25px;
+			padding-right: 25px;
+			width: 80%;
+			height: 300px;
+			background-color: grey;
+			box-sizing: border-box;
+			position: relative;
+			clear: left;
+			margin-left: 70px;
+		}
+		#chota1{
+			/*border: 1px solid black;*/
+    		background-color: #33cc33;
+			padding: 10px;
+			width: 13%;
+			height: 25px;
+			position: absolute;
+			top: 78.5px;
+			left: 73%;
+			text-align: center;
+			font-size: 20px;
+		}
+		#chota2{
+			    		background-color:  #ff9900
+;
+			padding: 10px;
+			width: 13%;
+			height: 25px;
+			position: absolute;
+			top: 411px;
+			left: 73%;
+			text-align: center;
+			font-size: 20px;
+		}
+		#chota3{
+			    		background-color:  #cc0000;
+			padding: 10px;
+			width: 13%;
+			height: 25px;
+			position: absolute;
+			top: 742px;
+			left: 73%;
+			text-align: center;
+			font-size: 20px;
+		}
+	}
+		@media (min-width: 768px ) and (max-width: 991px){
+							.bada{
+			border: 2px solid black;
+			padding-top: 100px;
+			padding-left: 25px;
+			padding-right: 25px;
+			width: 42%;
+			height: 300px;
+			background-color: grey;
+			box-sizing: border-box;
+			position: relative;
+			float: left;
+			margin-left: 50px;
+		}
+		#pehla > .bada{
+			margin-left: 65px
+		}
+		#teesra > .bada{
+			border: 2px solid black;
+			padding-top: 100px;
+			padding-left: 25px;
+			padding-right: 25px;
+			width: 90%;
+			height: 300px;
+			background-color: grey;
+			box-sizing: border-box;
+			position: relative;
+			clear: left;
+			margin-left: 70px;
+		}
+
+		#chota1{
+			/*border: 1px solid black;*/
+    		background-color: #33cc33;
+			padding: 10px;
+			width: 13%;
+			height: 25px;
+			position: absolute;
+			top: 81px;
+			left: 33.9%;
+			text-align: center;
+			font-size: 20px;
+		}
+		#chota2{
+			    		background-color: #ff9900;
+			padding: 10px;
+			width: 13%;
+			height: 25px;
+			position: absolute;
+			top: 80px;
+			left: 80.7%;
+			text-align: center;
+			font-size: 20px;
+			
+		}
+		#chota3{
+			    		background-color: #cc0000;
+			padding: 10px;
+			width: 13%;
+			height: 25px;
+			position: absolute;
+			top: 412px;
+			left: 81.7%;
+			text-align: center;
+			font-size: 20px;
+		}
+
 		}
 	</style>
 </head>
 <body>
-	<div><h1>WELCOME</h1>
-	<a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CM7fBoQS6cPhpPn-_nSqMAHaE8%26pid%3DApi&f=1" title="achi image"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CM7fBoQS6cPhpPn-_nSqMAHaE8%26pid%3DApi&f=1" width="400" height="235" alt="vibhu bora"></a>
-	<h1 id="top">here is where you are coming back</h1>
-	<div><a href="#p1">go to p1</a></div>
-	<img src="WIN_20200119_10_26_30_Pro.jpg" width="400" height="235" alt="vibhu bora">
-	<p>We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
+	<h1>OUR MENU</h1>
+	<div id="pehla">
+	<p class="bada">Aloo tikki is a snack originating from the Indian subcontinent; in North Indian, Pakistani and Bangladeshi preparation, it is made out of boiled potatoes, peas, and various curry spices. "Aloo" means potato, and the word "tikki" means a small cutlet or croquette in Hindi and Marathi. It is served hot and warm along with a side of saunth, tamarind and coriander-mint sauce, and sometimes dahi (yogurt) or chick peas. It is a vegetarian alternative, and an Indian equivalent of the hash brown.<a href="https://en.wikipedia.org/wiki/Aloo_tikki" title=" bhut mast hai kha ke dekho" target="_blank">More about Aloo Tikki</a>
 
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
+</p>
+	<p id="chota1">TIKKI</p>
+</div>
+<div id="doosra"><p class="bada"> Its an superdelicious indian dish .It consists of a round or ball-shaped, hollow puri (a deep-fried crisp crepe), filled with a mixture of flavored water (known as imli pani), tamarind chutney, chili, chaat masala, potato, onion or chickpeas.<a href="https://en.wikipedia.org/wiki/Panipuri" title="10 ke 6 hai yrr ab bhut mehange ho gaye hai" target="_blank"> MORE ABOUT PANIPURI</a>
 
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
 
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life
-We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life	We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life	We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life	We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life	We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life	We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life	We have provided various types of English essays (such as Education, India, Science & Technology, Animals, Festivals, National Days, Social Issues & Social Awareness, Personalities/People, Monuments, Relationships, Sports, Environmental Issues, Proverb, Moral Values, Nature and Essay on Health, etc) for students of lower and higher classes.
-
-Such type of essays can be very helpful for parents to make their kids actively participating in the extra-curricular activities including essay writing, debate, discussion, etc.
-
-These Essays are written in very simple and easy language using very easy words. These are easily understandable by any student.
-
-Such essays may help and motivate students to know about the Indian cultures, heritages, monuments, famous places, importance of teachers, mothers, animals, traditional festivals, events, occasions, famous personalities, legends, social issues and so many other topics.
-
-We have provided very unique and general topics essay which are generally assigned to students in the school.
-
-ESSAY TOPICS IN ENGLISH
-Following are different types of essay topics in English for students which are categorized in many sections so that you can easily chose the topic as per your need and requirement.
-
- 
-
-General Essay
-Essay on Generation Gap	Globalization Essay
-Essay on Music	Essay on My Hobby
-Essay on Money	Essay on Newspaper
-Essay on City Life Vs Village Life	Essay on Leadership
-Essay on Agriculture	Essay on Black Money
-Essay on My Dream	Essay on Doctor
-Essay on Who Am I	Essay on Youth
-Essay on Bank	Essay on Man
-Essay on Role Model	Essay on Newspaper and Its Uses
-Essay on Impact of Cinema in Life		</p>
-	<P id='p1'>So Basically This Website Is Nothing More Than An Experiment Being An Noob Trying To Learn Some Basics Of Web Devoloping Here Is Yo Guy <b>VITTHAL MISHRA</b></P>
-	<P class="rang">I would just try my skills based on learning from <b>COURSERA.COM</b> by the tutor of <strong>JOHN HOPKINS UNIVERSITY </strong> would try my best to learn most let see how it goes<a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank" title="link of course">yaha se pad lo</a></P>
-	<h3>Actually I am not that much noob I know a bit about html to be honest I don't think  html is that much hard.</h3>
-	<div class="rang">😁😁hey<a href="#top">back to top</a></div>
-	<h2>this is for the example of comma and the mix usage of stylesheets</h2>
-	<h4>this one is also for the example</h4>
-	<link rel="stylesheet" href="style.css"></div>
+</p>
+<p id="chota2">PANIPURI</p>
+</div>
+<div id="teesra">
+	<p class="bada">Momo is a type of East and South Asian steamed filled dumpling, popular across the Indian subcontinent and the Himalayan regions of East-South Asia border.[1] Momos are native to Southwest Chinese region of Tibet, Bhutan, Nepal, North Indian region of Ladakh,[1] Northeast Indian regions of Sikkim, Assam, and Arunachal Pradesh,[1] and East Indian region of Darjeeling.[1] It is similar to Chinese baozi, jiaozi, and mantou, Mongolian buuz, Japanese gyoza, Korean mandu and Turkic manti, but heavily influenced by cuisine of the Indian subcontinent with Indian spices and herbs. Momos are extremely popular among the natives of the Indian subcontinent, and can be found in every kind of shop from restaurants to street vendors.[1]
+<a href="https://en.wikipedia.org/wiki/Momo_(food)" title="o shaab ji momos khaa lo" target="_blank">More About MOMOS SHAAB JI</a>
+</p>
+<p id="chota3">MOMO</p>
+</div>
 </body>
 </html>
